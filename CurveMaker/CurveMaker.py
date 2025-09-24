@@ -116,8 +116,8 @@ class CurveMakerWidget:
     # Radius for the tube
     #
     self.RadiusSliderWidget = ctk.ctkSliderWidget()
-    self.RadiusSliderWidget.singleStep = 1.0
-    self.RadiusSliderWidget.minimum = 1.0
+    self.RadiusSliderWidget.singleStep = 0.1
+    self.RadiusSliderWidget.minimum = 0.1
     self.RadiusSliderWidget.maximum = 50.0
     self.RadiusSliderWidget.value = 5.0
     self.RadiusSliderWidget.setToolTip("Set the raidus of the tube.")
